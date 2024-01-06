@@ -9,6 +9,6 @@ if __name__=="__main__":
     print("Send")
     print("Receiving...");
     result = ws.recv()
-    print("Received '%s'" % result)
+    print(f"Received '{result}'")
     ws.close()
 
